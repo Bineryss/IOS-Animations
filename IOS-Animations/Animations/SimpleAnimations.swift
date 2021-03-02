@@ -13,8 +13,11 @@ class SimpleAnimations: UIViewController {
     @IBOutlet weak var move: UIView!
     @IBOutlet weak var color: UIView!
     
+    var posX:CGFloat = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        posX = move.center.x
     }
     
     //Annimation in simpelster Form
@@ -32,43 +35,10 @@ class SimpleAnimations: UIViewController {
     }
     
     func animnateColorChange(view: UIView, color: UIColor) {
-        UIView.animate(withDuration: 10, animations: {
+        UIView.animate(withDuration: 5, animations: {
             view.backgroundColor = color
         })
     }
-    
-    //Animation mit aktion, nach den diese durchgelaufen ist
-    func animateMoveRightWithCompletion(view: UIView) {
-        UIView.animate(withDuration: 5, animations: {
-            view.center.x += 300
-        }, completion: {finished in
-            //noetig, wenn animation pausiert werden kann
-            if(finished) {
-                view.center.x -= 300
-            }})
-    }
-    
-    func animateMoveRightAnimateBack(view: UIView) {
-        UIView.animate(withDuration: 5, animations: {
-            view.center.x += 300
-        }, completion: {_ in
-            //es koennen auch methoden in .animation aufgerufen werden
-                self.animateMoveRightCompletion(view: view)
-            })
-    }
-    
-    func animateMoveRightCompletion(view: UIView) {
-        UIView.animate(withDuration: 1, animations: {
-            view.center.x -= 300;
-        })
-    }
-    
-    func animationWithSpring(view: UIView) {
-        UIView.animate(withDuration: 5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 2, options: .curveLinear, animations: {
-            view.center.x += 200
-        })
-    }
-
     
     //Button connection
     @IBAction func onClickStartFade(_ sender: Any) {
@@ -83,5 +53,10 @@ class SimpleAnimations: UIViewController {
         animnateColorChange(view: color, color: .purple)
     }
     
-
+    @IBAction func onClickReset(_ sender: Any) {
+        fade.alpha = 1
+        move.center.x = posX
+        color.backgroundColor = .systemBlue
+    }
+    
 }
