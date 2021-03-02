@@ -14,6 +14,7 @@
 		7AFACA1525EE91DD004FB684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFACA1325EE91DD004FB684 /* LaunchScreen.storyboard */; };
 		7AFACA2325EE9650004FB684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFACA2225EE9650004FB684 /* ViewController.swift */; };
 		7AFACA2625EE9F48004FB684 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFACA2525EE9F48004FB684 /* PageViewController.swift */; };
+		7AFACA2A25EEA0D2004FB684 /* SimpleAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFACA2925EEA0D2004FB684 /* SimpleAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7AFACA1625EE91DD004FB684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AFACA2225EE9650004FB684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AFACA2525EE9F48004FB684 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		7AFACA2925EEA0D2004FB684 /* SimpleAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		7AFACA2825EEA08F004FB684 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				7AFACA2925EEA0D2004FB684 /* SimpleAnimations.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				7AFACA2325EE9650004FB684 /* ViewController.swift in Sources */,
 				7AFACA0925EE91DC004FB684 /* AppDelegate.swift in Sources */,
+				7AFACA2A25EEA0D2004FB684 /* SimpleAnimations.swift in Sources */,
 				7AFACA0B25EE91DC004FB684 /* SceneDelegate.swift in Sources */,
 				7AFACA2625EE9F48004FB684 /* PageViewController.swift in Sources */,
 			);
