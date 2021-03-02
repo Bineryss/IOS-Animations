@@ -5,6 +5,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
     lazy var viewControllerList:[UIViewController] = {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         return [
+            sb.instantiateViewController(identifier: "StartView"),
         sb.instantiateViewController(identifier: "SimpleAnimations"),
         sb.instantiateViewController(identifier: "AnimatiosnWithOptions")
         ]
