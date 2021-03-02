@@ -7,7 +7,8 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         return [
             sb.instantiateViewController(identifier: "StartView"),
         sb.instantiateViewController(identifier: "SimpleAnimations"),
-        sb.instantiateViewController(identifier: "AnimatiosnWithOptions")
+        sb.instantiateViewController(identifier: "AdvancedAnimations"),
+            sb.instantiateViewController(identifier: "AnimatiosnWithOptions"),
         ]
     }()
 

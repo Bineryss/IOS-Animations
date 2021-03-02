@@ -318,31 +318,23 @@
             </objects>
             <point key="canvasLocation" x="2024.6376811594205" y="-577.23214285714278"/>
         </scene>
-        <!--Advanced Animations-->
+        <!--Animations With Options-->
         <scene sceneID="27j-d3-jAr">
             <objects>
-                <viewController storyboardIdentifier="AnimatiosnWithOptions" useStoryboardIdentifierAsRestorationIdentifier="YES" id="U9g-wF-KGz" customClass="AdvancedAnimations" customModule="IOS_Animations" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimatiosnWithOptions" useStoryboardIdentifierAsRestorationIdentifier="YES" id="U9g-wF-KGz" customClass="AnimationsWithOptions" customModule="IOS_Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eww-aE-asx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkI-RL-P9H">
-                                <rect key="frame" x="124" y="220" width="166" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Fade mit Clousure"/>
-                                <connections>
-                                    <action selector="onClickAnimateFirst:" destination="U9g-wF-KGz" eventType="touchUpInside" id="CZC-6o-k9T"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IBO-HG-LhR">
                                 <rect key="frame" x="20" y="398" width="65" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoM-pe-Xvx">
-                                <rect key="frame" x="124" y="484" width="166" height="30"/>
+                                <rect key="frame" x="109" y="484" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Bewegung mit Springs"/>
+                                <state key="normal" title="Bewegung mit &quot;autoreverse&quot;"/>
                                 <connections>
                                     <action selector="onClickAnimateThird:" destination="U9g-wF-KGz" eventType="touchUpInside" id="6P7-tj-gG7"/>
                                 </connections>
@@ -355,9 +347,22 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFk-3N-037">
                                 <rect key="frame" x="124" y="348" width="166" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Bewegungs Animation"/>
+                                <state key="normal" title="Bewegung mit &quot;linear&quot;"/>
                                 <connections>
                                     <action selector="onClickAnimateSecond:" destination="U9g-wF-KGz" eventType="touchUpInside" id="Lon-Ol-8qJ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8AB-l9-IVk">
+                                <rect key="frame" x="20" y="138" width="64" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNq-kD-Z0H">
+                                <rect key="frame" x="119" y="224" width="177" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Bewegung mit &quot;easInOut&quot;"/>
+                                <connections>
+                                    <action selector="onClickAnimateSecond:" destination="U9g-wF-KGz" eventType="touchUpInside" id="hD0-eu-BI2"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSO-uu-Spl">
@@ -365,8 +370,8 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Komplexe Animationen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ0-fy-sNd">
-                                <rect key="frame" x="40" y="58" width="336" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animationen mit &quot;Options&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ0-fy-sNd">
+                                <rect key="frame" x="14" y="58" width="388" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
@@ -378,46 +383,49 @@
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="giC-QE-cwR">
-                                <rect key="frame" x="0.0" y="551" width="414" height="1"/>
+                                <rect key="frame" x="0.0" y="566" width="414" height="1"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fw1-0a-LbY">
                                 <rect key="frame" x="20" y="578" width="374" height="133"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">Hier ist der Parameter "comlpetion" genutzt wurden, um nach der Animatin den Kasten wieder an seinen Ursprungsort zu setzten. Normaler nutzt man "completion" um Elemte aus der Super View zu entfernen, sobald sie nicht mehr sichbar sind</string>
+                                <string key="text">Hier sind ein paar der Options genutzt, die den ablauf der Animaton ändern. Für eine Ausführliche Auflistung aller Options: siehe Präsentation </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SlF-KQ-w9F">
-                                <rect key="frame" x="21" y="134" width="355" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1x-JL-64W">
-                                <rect key="frame" x="190" y="758" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysv-xR-myO">
+                                <rect key="frame" x="118" y="537" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                                <state key="normal" title="Reset"/>
+                                <state key="normal" title="Alle Starten"/>
                                 <connections>
-                                    <action selector="onClickReset:" destination="U9g-wF-KGz" eventType="touchUpInside" id="LRP-cZ-edd"/>
+                                    <action selector="onClickPlayAll:" destination="U9g-wF-KGz" eventType="touchUpInside" id="dUy-GC-acS"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zu finden in der Datei &quot;AdvancedAnimations&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCl-WY-sat">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zu finden in der Datei &quot;AnimationsWithOptions&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCl-WY-sat">
                                 <rect key="frame" x="21" y="690" width="374" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4e-Cj-hn4">
+                                <rect key="frame" x="210" y="537" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <state key="normal" title="Alle Stoppen"/>
+                                <connections>
+                                    <action selector="onClickStoppAll:" destination="U9g-wF-KGz" eventType="touchUpInside" id="N6n-sR-mzc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y3r-dh-LSO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="first" destination="SlF-KQ-w9F" id="gOw-Hx-QAl"/>
-                        <outlet property="second" destination="cfC-bm-79a" id="XzP-ze-dDL"/>
-                        <outlet property="third" destination="IBO-HG-LhR" id="Ypa-WB-nA0"/>
+                        <outlet property="autoreverse" destination="IBO-HG-LhR" id="Ggb-lO-kSi"/>
+                        <outlet property="easeInOut" destination="8AB-l9-IVk" id="lpQ-R6-LPP"/>
+                        <outlet property="linear" destination="cfC-bm-79a" id="BdG-BS-WTD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DF7-cz-PUg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
