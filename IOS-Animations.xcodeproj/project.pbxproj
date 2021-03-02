@@ -15,6 +15,7 @@
 		7AFACA2325EE9650004FB684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFACA2225EE9650004FB684 /* ViewController.swift */; };
 		7AFACA2625EE9F48004FB684 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFACA2525EE9F48004FB684 /* PageViewController.swift */; };
 		7AFACA2A25EEA0D2004FB684 /* SimpleAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFACA2925EEA0D2004FB684 /* SimpleAnimations.swift */; };
+		7AFACA2D25EEC163004FB684 /* AdvancedAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFACA2C25EEC163004FB684 /* AdvancedAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7AFACA2225EE9650004FB684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AFACA2525EE9F48004FB684 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		7AFACA2925EEA0D2004FB684 /* SimpleAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimations.swift; sourceTree = "<group>"; };
+		7AFACA2C25EEC163004FB684 /* AdvancedAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				7AFACA2925EEA0D2004FB684 /* SimpleAnimations.swift */,
+				7AFACA2C25EEC163004FB684 /* AdvancedAnimations.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFACA2D25EEC163004FB684 /* AdvancedAnimations.swift in Sources */,
 				7AFACA2325EE9650004FB684 /* ViewController.swift in Sources */,
 				7AFACA0925EE91DC004FB684 /* AppDelegate.swift in Sources */,
 				7AFACA2A25EEA0D2004FB684 /* SimpleAnimations.swift in Sources */,
