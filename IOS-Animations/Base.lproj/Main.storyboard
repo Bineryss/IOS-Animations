@@ -435,7 +435,7 @@
         <!--Animation Error Handling-->
         <scene sceneID="XsK-53-Raw">
             <objects>
-                <viewController storyboardIdentifier="AdvancedAnimations" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fAN-lT-kFd" customClass="AnimationErrorHandling" customModule="IOS_Animations" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimationErrorHandling" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fAN-lT-kFd" customClass="AnimationErrorHandling" customModule="IOS_Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xkP-Ro-U1O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

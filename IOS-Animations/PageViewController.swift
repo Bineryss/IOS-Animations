@@ -9,9 +9,10 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         sb.instantiateViewController(identifier: "SimpleAnimations"),
         sb.instantiateViewController(identifier: "AdvancedAnimations"),
             sb.instantiateViewController(identifier: "AnimatiosnWithOptions"),
+            sb.instantiateViewController(identifier: "AnimationErrorHandling"),
         ]
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.dataSource = self
