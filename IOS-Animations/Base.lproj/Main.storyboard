@@ -290,7 +290,7 @@
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNM-Jt-Zjb">
-                                <rect key="frame" x="190" y="758" width="39" height="30"/>
+                                <rect key="frame" x="188" y="758" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <state key="normal" title="Reset"/>
                                 <connections>
@@ -675,7 +675,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vOE-3y-O12" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2760.8695652173915" y="77.678571428571431"/>
+            <point key="canvasLocation" x="2761" y="436"/>
         </scene>
     </scenes>
     <resources>
